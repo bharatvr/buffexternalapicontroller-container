@@ -1,0 +1,916 @@
+[
+   {
+      "query":"What is a Smart Account?",
+      "predictions":[
+         {
+            "plot":[
+               -0.3578317792661196,
+               -0.7305652656130666
+            ],
+            "context":[
+
+            ],
+            "key":"lic02",
+            "matches":[
+               [
+                  "smart",
+                  "smart",
+                  1.5
+               ],
+               [
+                  "smart account",
+                  "smart account",
+                  1.5
+               ],
+               [
+                  "account",
+                  "account",
+                  1.5
+               ]
+            ],
+            "prob_lsh":0.9642,
+            "prob_base":0.9642,
+            "prob_skip_diff":1.0,
+            "private":false,
+            "prob":1.0,
+            "topic":"a",
+            "answer":"{\"answer\": \"
+
+
+Smart Accounts are used by Cisco Partners or Customers to manage their Cisco Software licenses. Partners and Customers can do this by associating their licenses to the company instead of individuals.
+
+
+
+
+
+\\n
+
+
+Virtual Accounts are sub-accounts under the Smart Account that Customers and Partners can create to organize and structure the Smart Account.
+
+
+
+
+
+\\n
+
+
+Smart Accounts are mandatory for Smart Licensing and Enterprise License Agreement (ELA) but are optional and recommended for Traditional (PAK-based) licenses.
+
+
+
+
+
+\\n
+
+
+Smart Account Administrators associate the individuals who need to view or manage the licenses for the Smart Account. You have the option to assign an order to your Smart Account or Virtual Account when ordering. All users associated with the Smart Account or Virtual Account can view and manage the licenses from the licensing portals when the order is booked and the licenses are fulfilled.
+
+
+
+
+
+\\n
+
+
+Note: Smart Accounts are identified by the Smart Account Name, not the Smart Account Number.
+
+
+
+
+
+\\n
+
+
+For more information and assistance with Smart Accounts, use the following:
+
+
+
+
+
+\\n
+
+
+Request a new Smart Account for your company
+
+
+
+
+
+\\n
+
+
+Request Access to an existing Smart Account
+
+
+
+
+
+\\n
+
+
+Manage your Smart Account
+
+
+
+
+
+\", \"VCA_ID\": \"LC--1\", \"unique_id\": \"892\"}",
+            "method":"tfidf",
+            "prob_tfidf":0.5951,
+            "id":"ZbjZXDlZ+++Lih3uYXPPfw==",
+            "sent":"What is a Smart Account?"
+         },
+         {
+            "plot":[
+               -0.9532702257643324,
+               -0.23258843992798847
+            ],
+            "context":[
+
+            ],
+            "key":"lic02",
+            "matches":[
+               [
+                  "smart",
+                  "smart",
+                  1.5
+               ],
+               [
+                  "smart account",
+                  "smart account",
+                  1.5
+               ],
+               [
+                  "account",
+                  "account",
+                  1.5
+               ]
+            ],
+            "prob_lsh":0.8281,
+            "prob_base":0.8281,
+            "private":false,
+            "prob":1.0,
+            "topic":"a",
+            "answer":"{\"VCA_ID\": \"VCA-661\", \"profile_label_override\": \"Smart Account\", \"answer\": \"
+
+
+Partner Holding Account
+
+
+
+
+
+\\n
+
+
+These are held by Distributors or Resellers, who are Partners. Partners use a Partner Holding Account to temporarily store assigned orders until the End Customer Smart Account is identified.
+
+
+
+
+
+\\n
+
+
+Customer Smart Account 
+
+
+
+
+
+\\n
+
+
+Smart Account enabled licenses are deposited in the Customer Smart Account. Customers, Partners, or an authorized party can manage licenses directly.
+
+
+
+
+
+\\n
+
+
+For more information on Smart Accounts, navigate to Cisco.com.
+
+
+
+
+
+\", \"sub_technology\": \"Move So from Partner/holding SA to correct end customer\", \"technology\": \"Smart Licensing\", \"unique_id\": \"222\"}",
+            "method":"word2vec",
+            "prob_skip_diff":1.0,
+            "id":"tCN0acJJgA/quPV8ihfkwA==",
+            "sent":"What is a Customer Smart Account used for?"
+         },
+         {
+            "plot":[
+               -0.3805675545179309,
+               -0.520108483373808
+            ],
+            "context":[
+
+            ],
+            "key":"lic02",
+            "matches":[
+               [
+                  "smart",
+                  "smart",
+                  1.5
+               ],
+               [
+                  "smart account",
+                  "smart account",
+                  1.5
+               ],
+               [
+                  "account",
+                  "account",
+                  1.5
+               ]
+            ],
+            "prob_lsh":0.8252,
+            "prob_base":0.8252,
+            "prob_skip_diff":1.0,
+            "private":false,
+            "prob":1.0,
+            "topic":"a",
+            "answer":"{\"answer\": \"
+
+
+Smart Accounts are used by Cisco Partners or Customers to manage their Cisco Software licenses. Partners and Customers can do this by associating their licenses to the company instead of individuals.
+
+
+
+
+
+\\n
+
+
+Virtual Accounts are sub-accounts under the Smart Account that Customers and Partners can create to organize and structure the Smart Account.
+
+
+
+
+
+\\n
+
+
+Smart Accounts are mandatory for Smart Licensing and Enterprise License Agreement (ELA) but are optional and recommended for Traditional (PAK-based) licenses.
+
+
+
+
+
+\\n
+
+
+Smart Account Administrators associate the individuals who need to view or manage the licenses for the Smart Account. You have the option to assign an order to your Smart Account or Virtual Account when ordering. All users associated with the Smart Account or Virtual Account can view and manage the licenses from the licensing portals when the order is booked and the licenses are fulfilled.
+
+
+
+
+
+\\n
+
+
+Note: Smart Accounts are identified by the Smart Account Name, not the Smart Account Number.
+
+
+
+
+
+\\n
+
+
+For more information and assistance with Smart Accounts, use the following:
+
+
+
+
+
+\\n
+
+
+Request a new Smart Account for your company
+
+
+
+
+
+\\n
+
+
+Request Access to an existing Smart Account
+
+
+
+
+
+\\n
+
+
+Manage your Smart Account
+
+
+
+
+
+\", \"VCA_ID\": \"LC--1\", \"unique_id\": \"892\"}",
+            "method":"tfidf",
+            "prob_tfidf":0.4787,
+            "id":"xZtcoeKhqkhb8K4m9tMY1A==",
+            "sent":"What is Smart Accounts and Virtual Accounts?"
+         },
+         {
+            "plot":[
+               -0.48282798499633295,
+               -0.6818236679113223
+            ],
+            "context":[
+
+            ],
+            "key":"lic02",
+            "matches":[
+               [
+                  "smart",
+                  "smart",
+                  1.5
+               ],
+               [
+                  "smart account",
+                  "smart account",
+                  1.5
+               ],
+               [
+                  "account",
+                  "account",
+                  1.5
+               ]
+            ],
+            "prob_lsh":0.8217,
+            "prob_base":0.8217,
+            "prob_skip_diff":1.0,
+            "private":false,
+            "prob":1.0,
+            "topic":"a",
+            "answer":"{\"VCA_ID\": \"LC--6\", \"profile_label_override\": \"Smart Account\", \"answer\": \"
+
+
+Manage your Smart Account, Virtual Accounts, and user association
+
+
+
+
+
+\\n
+
+
+Request a new Smart Account for your company
+
+
+
+
+
+\\n
+
+
+Request association to an existing Smart Account
+
+
+
+
+
+\", \"sub_technology\": \"Customer Education (SA/CSSM help)\", \"technology\": \"Smart Licensing\", \"unique_id\": \"897\"}",
+            "method":"tfidf",
+            "prob_tfidf":0.4733,
+            "id":"GhwOUfB7tZHWwfGCwkx4UQ==",
+            "sent":"Who can manage my Smart Account?"
+         },
+         {
+            "plot":[
+               -0.48282798499633295,
+               -0.6818236679113223
+            ],
+            "context":[
+
+            ],
+            "key":"lic02",
+            "matches":[
+               [
+                  "smart",
+                  "smart",
+                  1.5
+               ],
+               [
+                  "smart account",
+                  "smart account",
+                  1.5
+               ],
+               [
+                  "account",
+                  "account",
+                  1.5
+               ]
+            ],
+            "prob_lsh":0.8217,
+            "prob_base":0.8217,
+            "prob_skip_diff":1.0,
+            "private":false,
+            "prob":1.0,
+            "topic":"a",
+            "answer":"{\"VCA_ID\": \"LC--6\", \"profile_label_override\": \"Smart Account\", \"answer\": \"
+
+
+Manage your Smart Account, Virtual Accounts, and user association
+
+
+
+
+
+\\n
+
+
+Request a new Smart Account for your company
+
+
+
+
+
+\\n
+
+
+Request association to an existing Smart Account
+
+
+
+
+
+\", \"sub_technology\": \"Customer Education (SA/CSSM help)\", \"technology\": \"Smart Licensing\", \"unique_id\": \"897\"}",
+            "method":"tfidf",
+            "prob_tfidf":0.4733,
+            "id":"JAQ7GY5plaLl0gSoysZfPw==",
+            "sent":"Where can I manage my Smart Account?"
+         },
+         {
+            "plot":[
+               -0.48282798499633295,
+               -0.6818236679113223
+            ],
+            "context":[
+
+            ],
+            "key":"lic02",
+            "matches":[
+               [
+                  "smart",
+                  "smart",
+                  1.5
+               ],
+               [
+                  "smart account",
+                  "smart account",
+                  1.5
+               ],
+               [
+                  "account",
+                  "account",
+                  1.5
+               ]
+            ],
+            "prob_lsh":0.8217,
+            "prob_base":0.8217,
+            "prob_skip_diff":1.0,
+            "private":false,
+            "prob":1.0,
+            "topic":"a",
+            "answer":"{\"VCA_ID\": \"LC--6\", \"profile_label_override\": \"Smart Account\", \"answer\": \"
+
+
+Manage your Smart Account, Virtual Accounts, and user association
+
+
+
+
+
+\\n
+
+
+Request a new Smart Account for your company
+
+
+
+
+
+\\n
+
+
+Request association to an existing Smart Account
+
+
+
+
+
+\", \"sub_technology\": \"Customer Education (SA/CSSM help)\", \"technology\": \"Smart Licensing\", \"unique_id\": \"897\"}",
+            "method":"tfidf",
+            "prob_tfidf":0.4733,
+            "id":"ONyvYSBYMfUk8sX0NbiXBw==",
+            "sent":"How can I manage my Smart Account?"
+         },
+         {
+            "plot":[
+               -0.6479732255762641,
+               -0.6016042773021995
+            ],
+            "context":[
+
+            ],
+            "key":"lic02",
+            "matches":[
+               [
+                  "smart",
+                  "smart",
+                  1.5
+               ],
+               [
+                  "smart account",
+                  "smart account",
+                  1.5
+               ],
+               [
+                  "account",
+                  "account",
+                  1.5
+               ]
+            ],
+            "prob_lsh":0.8086,
+            "prob_base":0.8086,
+            "private":false,
+            "prob":1.0,
+            "topic":"a",
+            "answer":"{\"answer\": \"
+
+
+Smart Accounts are used by Cisco Partners or Customers to manage their Cisco Software licenses. Partners and Customers can do this by associating their licenses to the company instead of individuals.
+
+
+
+
+
+\\n
+
+
+Virtual Accounts are sub-accounts under the Smart Account that Customers and Partners can create to organize and structure the Smart Account.
+
+
+
+
+
+\\n
+
+
+Smart Accounts are mandatory for Smart Licensing and Enterprise License Agreement (ELA) but are optional and recommended for Traditional (PAK-based) licenses.
+
+
+
+
+
+\\n
+
+
+Smart Account Administrators associate the individuals who need to view or manage the licenses for the Smart Account. You have the option to assign an order to your Smart Account or Virtual Account when ordering. All users associated with the Smart Account or Virtual Account can view and manage the licenses from the licensing portals when the order is booked and the licenses are fulfilled.
+
+
+
+
+
+\\n
+
+
+Note: Smart Accounts are identified by the Smart Account Name, not the Smart Account Number.
+
+
+
+
+
+\\n
+
+
+For more information and assistance with Smart Accounts, use the following:
+
+
+
+
+
+\\n
+
+
+Request a new Smart Account for your company
+
+
+
+
+
+\\n
+
+
+Request Access to an existing Smart Account
+
+
+
+
+
+\\n
+
+
+Manage your Smart Account
+
+
+
+
+
+\", \"VCA_ID\": \"LC--1\", \"unique_id\": \"892\"}",
+            "method":"word2vec",
+            "prob_skip_diff":1.0,
+            "id":"NXjnFLJAPxErjdsXhgxeIQ==",
+            "sent":"How can a customer manage a Smart Account?"
+         },
+         {
+            "plot":[
+               -1.1029681349741502,
+               -0.8115189530259471
+            ],
+            "context":[
+
+            ],
+            "key":"lic02",
+            "matches":[
+               [
+                  "smart",
+                  "smart",
+                  1.5
+               ],
+               [
+                  "smart account",
+                  "smart account",
+                  1.5
+               ],
+               [
+                  "account",
+                  "account",
+                  1.5
+               ]
+            ],
+            "prob_lsh":0.8001,
+            "prob_base":0.8001,
+            "private":false,
+            "prob":1.0,
+            "topic":"a",
+            "answer":"{\"VCA_ID\": \"VCA-685\", \"profile_label_override\": \"Smart Account\", \"answer\": \"
+
+
+A Partner can only initiate or request a Smart Account on a customer's behalf.
+
+
+
+
+
+\\n
+
+
+Partners can request a Customer Smart Account on the behalf of their customers from Cisco Software Central. Partners can also request a Customer Smart Account for their customer from the Cisco Commerce Workplace (CCW).
+
+
+
+
+
+\\n
+
+
+Only a customer can activate the Smart Account because it requires the customer's company to agree to a Cisco agreement. Customers can also directly request and create their Smart Account from Cisco Software Central.
+
+
+
+
+
+\\n
+
+
+The End Customer User needs to complete the Smart Account creation.
+
+
+
+
+
+\", \"sub_technology\": \"Customer Education (SA/CSSM help)\", \"technology\": \"Smart Licensing\", \"unique_id\": \"250\"}",
+            "method":"word2vec",
+            "prob_skip_diff":1.0,
+            "id":"oqGpEAPkrykF5qvM9xIvww==",
+            "sent":"Can a Partner create a Smart Account for the customer or does the customer need to create the Smart Account themselves?"
+         },
+         {
+            "plot":[
+               -0.5929685913182667,
+               -0.6131968016467382
+            ],
+            "context":[
+
+            ],
+            "key":"lic02",
+            "matches":[
+               [
+                  "smart",
+                  "smart",
+                  1.5
+               ],
+               [
+                  "smart account",
+                  "smart account",
+                  1.5
+               ],
+               [
+                  "account",
+                  "account",
+                  1.5
+               ]
+            ],
+            "prob_lsh":0.798,
+            "prob_base":0.798,
+            "private":false,
+            "prob":1.0,
+            "topic":"a",
+            "answer":"{\"VCA_ID\": \"VCA-699\", \"profile_label_override\": \"Smart Account\", \"answer\": \"
+
+
+A Partner can check if their customer has a Smart Account using the following steps:
+
+
+
+
+
+\\n
+
+
+\\n
+
+
+Log into Cisco Software Central (software.cisco.com).
+
+
+\\n
+
+
+Navigate to MENU > Administration > Request Access to existing Smart Account.
+
+
+\\n
+
+
+Enter the customer's domain in the Account Domain Identifier field. For example, Cisco.com.
+
+
+\\n
+
+
+Click Submit.
+
+
+\\n
+
+
+\\n
+
+
+Note: The Account Domain Identifier field displays the message. Please enter a correctly formatted domain, e.g.company.com or west.company.com if the Smart Account does not exist. Smart Accounts associated with that customer domain will display if they exist.
+
+
+
+
+
+\\n
+
+
+Partners can contact licensing@cisco.com and provide their customer's Domain ID or Smart Account name if they cannot access Cisco Software Central.
+
+
+
+
+
+\", \"sub_technology\": \"Customer Education (SA/CSSM help)\", \"technology\": \"Smart Licensing\", \"unique_id\": \"267\"}",
+            "method":"word2vec",
+            "prob_skip_diff":1.0,
+            "id":"+asTfakMUnN+IiO5Z/p83w==",
+            "sent":"How can a customer know their Smart Account details if they missed the email containing their Smart Account information?"
+         },
+         {
+            "plot":[
+               -0.6136704272681279,
+               -0.14916682905621034
+            ],
+            "context":[
+
+            ],
+            "key":"lic02",
+            "matches":[
+               [
+                  "smart",
+                  "smart",
+                  1.5
+               ],
+               [
+                  "smart account",
+                  "smart account",
+                  1.5
+               ],
+               [
+                  "account",
+                  "account",
+                  1.5
+               ]
+            ],
+            "prob_lsh":0.7903,
+            "prob_base":0.7903,
+            "private":false,
+            "prob":1.0,
+            "topic":"a",
+            "answer":"{\"VCA_ID\": \"VCA-639\", \"profile_label_override\": \"Smart Licensing\", \"answer\": \"
+
+
+You can view your Smart Licenses on Cisco Smart Software Manager (CSSM) by navigating to Licenses > Inventory. If you do not see the licenses, then you could have one of the following issues:
+
+
+
+
+
+\\n
+
+
+\\n
+
+
+Incorrect Virtual Account selected.
+
+
+\\n
+
+
+Unable to access the Virtual Account the licenses were deposited to. If you are not a Smart Account Admin, then verify with your Admin to ensure you have access.
+
+
+\\n
+
+
+Your Partner or Reseller did not reassign the licenses from their Partner Holding Account to your Smart Account. Check with them to confirm.
+
+
+\\n
+
+
+Your order may still be pending. Check with your Partner or Reseller to confirm.
+
+
+\\n
+
+
+PAK was not converted to Smart License. This is why it is not visible on CSSM.
+
+
+\\n
+
+
+Sales order was not associated with the Smart Account. The licenses from the sales order are not visible in the Smart Account. When a Partner or customer places an order, an option to Assign Smart Account is available. Select the appropriate Smart Account. After selecting the Smart Account, you can also assign a Virtual Account to the order. The Smart Account assignment should appear on the order.
+
+
+\\n
+
+
+The Partner can go back to order in Cisco Commerce Workspace (CCW) and assign the required Smart Account if a Partner Holding Account was provided while placing the order.
+
+
+\\n
+
+
+Cisco Support Intervention is required to assign the Smart Account if the order is already processed with a Smart Account on it.
+
+
+\\n
+
+
+\\n
+
+
+If you are still unable to see your Smart Licenses, then you need to open a case to send an email for further assistance.
+
+
+
+
+
+\", \"sub_technology\": \"Encountered Error or timeout in CSSM\", \"technology\": \"Smart Licensing\", \"unique_id\": \"79.2\"}",
+            "method":"word2vec",
+            "prob_skip_diff":1.0,
+            "id":"SYp7IeTTuUwsfJi9w+UfMg==",
+            "sent":"Why can't I see my licenses in my Smart Account or my Virtual Account?"
+         }
+      ]
+   }
+]

@@ -1,0 +1,21 @@
+server:
+    servlet:
+        contextPath: /buff/common/utils
+        session:
+            cookie: {secure: true}
+    port: 8080
+spring.servlet.multipart:
+    enabled: true
+    max-file-size: 10MB
+    max-request-size: 15MB
+spring:
+    env:
+        type: '${CISCO_LC}'
+    search:
+        service:
+            url: '${BUFF_MONICA_SERVICE_URL}'
+    skill-builder:
+        service:
+            url: '${BUFF_SKILL_BUILDER_SERVICE_URL}'
+    logger:
+        url: '${BUFF_LOGGER_URL}'
