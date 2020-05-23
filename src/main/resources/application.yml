@@ -10,12 +10,12 @@ spring.servlet.multipart:
     max-request-size: 15MB
 spring:
     env:
-        type: '${CISCO_LC}'
+        type: default
     search:
         service:
-            url: '${BUFF_MONICA_SERVICE_URL}'
+            url: http://localhost:8080
     skill-builder:
         service:
-            url: '${BUFF_SKILL_BUILDER_SERVICE_URL}'
+            url: http://localhost:8080
     logger:
-        url: '${BUFF_LOGGER_URL}'
+        url: http://localhost:8080
