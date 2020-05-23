@@ -7,9 +7,8 @@ import javax.servlet.http.HttpServletRequest;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.cisco.buff.model.RequesPayload;
@@ -34,7 +33,7 @@ public class SCMIntergationController {
 	CommonUtils commonUtils;
 
 	@LogExecutionTime
-	@RequestMapping(value = "/v1/suggestions", method = { RequestMethod.GET, RequestMethod.POST })
+	@PostMapping(value = "/v1/suggestions")
 	public Object suggestionsKAV1(@RequestBody RequesPayload requesPayload, HttpServletRequest request) {
 		Date startDate = new Date();
 		ServiceResponseWrapper<Object> wrapper = new ServiceResponseWrapper<>();
@@ -48,14 +47,14 @@ public class SCMIntergationController {
 		}
 
 		catch (BuffServiceException buffExp) {
-			logger.error(String.format("Exception while calling getMonicaQAResponse :  %s ", buffExp.toString()));
+			logger.error("Exception while calling getMonicaQAResponse :  {} ", buffExp.toString());
 			wrapper = commonUtils.getErrorResponseMessage(refrenceId, buffExp.getMessage());
 			return wrapper;
 
 		} finally {
 			Date resDate = new Date();
 			long diffInMillies = Math.abs(resDate.getTime() - startDate.getTime());
-            logger.info(String.format("Elapsed time for clientTrxId : %s :  %s ",refrenceId,diffInMillies ));
+            logger.info("Elapsed time for clientTrxId : {} :  {}", refrenceId, diffInMillies );
 			loggerService.logResponse(refrenceId, wrapper, requesPayload, startDate, resDate, diffInMillies);
 		}
 

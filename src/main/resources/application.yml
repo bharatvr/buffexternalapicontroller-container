@@ -13,9 +13,9 @@ spring:
         type: default
     search:
         service:
-            url: http://localhost:8080
+            url: http://localhost:8080/buff/common/utils
     skill-builder:
         service:
-            url: http://localhost:8080
+            url: http://localhost:8080/buff/common/utils
     logger:
-        url: http://localhost:8080
+        url: http://localhost:8080/buff/common/utils

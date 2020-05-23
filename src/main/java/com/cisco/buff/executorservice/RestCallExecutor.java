@@ -52,6 +52,9 @@ public class RestCallExecutor implements Callable<String> {
 		ResponseEntity<String> resp = restTemplate.exchange(uri, HttpMethod.GET, entity, String.class);
 
 		logger.info("Resposne for profile key : {}  : {} ", profileKey, resp.getStatusCode());
+		
+		
+		System.out.println(resp.getBody());
 
 		if (resp.getStatusCode() == HttpStatus.OK) {
 			response = resp.getBody();

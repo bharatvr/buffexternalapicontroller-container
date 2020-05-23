@@ -60,7 +60,7 @@ public class LoggerService {
 			request.put("requestTime", format.format(reqDate));
 			request.put("responseTime", format.format(resDate));
 
-			logger.debug("ROW Response : {}", request.toString());
+			logger.debug("ROW Response : {}", request);
 			HttpEntity<?> req = new HttpEntity<>(request.toString(), headers);
 			restTemplate.exchange(loggerUrl + "/api/v1/log/csm-lic/suggestion", HttpMethod.POST, req, String.class);
 
